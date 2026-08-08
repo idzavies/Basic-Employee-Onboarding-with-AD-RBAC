@@ -1,13 +1,13 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+* Northstar Medical Group’s Active Directory environment was poorly managed by a third-party Managed Service Provider (MSP), resulting in a disorganized directory with no consistent structure or access management standards over time. As the company grew to 200+ employees, user accounts were created and managed manually, departments and permissions were inconsistently assigned, and there was no standardized Joiner-Mover-Leaver (JML) and RBAC process. Also, because Northstar operates in healthcare, these identity and access management gaps created significant security, audit, and HIPAA compliance risks that required rebuilding the Active Directory environment from the ground up.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+* I built an Active Directory domain called NMG.com and created 4 OUs based on the needed departments for the company. I also implemented RBAC by creating security groups and assigned the correct users into the groups based on their roles. I ensured the principle of lease privilege was implemented by having all users have access to resources specific to their job roles.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+[Coming soon]
 
 ## Tools Used
 * Windows Server
@@ -26,5 +26,6 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Provisioned 15 users accounts with consistent SAMAccountName and UPN formatting across four departments.
+* Diagnosed and resolved a multi-cause identity incident involving incorrect OU placement that was missing security group membership.
+
