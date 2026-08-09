@@ -1,7 +1,7 @@
 
 1. From the Jira ticket received, Jane's user identity is in the operations OU.
-2. But after researching I found that eventhough Jane was in the Operations OU now, she is actually supposed to be in the HR OU. Because she is a payroll specialist.
-3.Jane Cooper is currently a member of Operations-users. She should be a member of the HR-users OU
+2. But after researching I found that eventhough Jane appears in the Operations OU with job description as a payroll specialist.
+3. Jane Cooper is currently a member of Operations-users. However, she should be a member of the HR-users OU
 
 
 Why this happened
@@ -9,7 +9,7 @@ Why this happened
 The reason this issue occurred is because Jane was placed in the incorrect OU which led to her being granted the wrong scope of access. 
 This is why the policies weren't applied to her properly. I'm about to move her into the correct OU which is HR to fix this issue.
 
------------------
+-------------------
 
 Ticket number: NMG-0047
 
@@ -17,11 +17,11 @@ Affected user: Jane Cooper (jcooper**@NMG.com**)
 
 Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
 
-Root cause: The issue occurred is because Jane was placed inside the incorrect OU and security Group. This led to her being granted the wrong scope of access.
+Root cause: The issue occurred because Jane was placed inside the incorrect OU and security Group. This led to her being granted the wrong scope of access.
 
 Fix applied: To fix this issue, I simply moved Jane Cooper into the correct OU for HR. I also changed her security group to HR-Users.
 
-Verification: I confirmed the issue was resolved by reviewing the OU and the security Group Members Lists and taking screenshots of the completed process.
+Verification: I confirmed the issue was resolved by reviewing the OU and the security Group Member Lists and taking screenshots of the completed process.
 
 Date resolved: (August 08,2026)
 
