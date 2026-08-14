@@ -8,7 +8,7 @@ They are a fast growing company who delegated their Identity Lifecycle managemen
 * I built an Active Directory domain called NMG.com and created 4 Organizational units based on the needed departments for the company. I also implemented RBAC by creating security groups and assigned the correct users into them based on their roles. I ensured the principle of lease privilege was implemented by having the users obtained only the needed permission to resources specific to their job roles. All tasks and incident resolutions was fully documented, so the environment remains understandable, auditable, and easy to operate.
 
 ## Video Walkthrough
- * Video https://www.loom.com/share/e7e5aa8595ec413e8473691623d06116
+ * Video >> https://www.loom.com/share/e7e5aa8595ec413e8473691623d06116
 
 ## Tools Used
 * Windows Server
